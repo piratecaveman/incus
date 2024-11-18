@@ -56,11 +56,6 @@ variable "files" {
   default = {}
 }
 
-variable "limits" {
-  type    = map(any)
-  default = {}
-}
-
 variable "config" {
   type    = map(any)
   default = {}

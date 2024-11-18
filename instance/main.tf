@@ -7,7 +7,6 @@ resource "incus_instance" "instance" {
   running          = var.running
   wait_for_network = var.wait_for_network
   profiles         = var.profiles
-  limits           = var.limits
   config           = var.config
   project          = var.project
   remote           = var.remote
